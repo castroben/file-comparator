@@ -1,20 +1,20 @@
 # FILE COMPARATOR
 The objective of this program is to identify and prints differences between two or more .csv files containing the email, YouTube channel and subscriber count of several subjects.
 
-##Project Structure
+## Project Structure
 This project is composed of 3 functional classes plus on main class to run the entire code base. The three classes that do all the 'heavy-lifting' are Account.js, Comparator.js and InputReader.js. The code in each of these files is documented, however, here is a brief description of each class:
-###Account.js - abstracts information from a .csv file into object for easy access.
-###InputReader.js - reads and stores the information from .csv files, performs error handling and input validation.
-###Comparator.js - reads information stored in InputReader and performs necessary comparisons.
+### Account.js - abstracts information from a .csv file into object for easy access.
+### InputReader.js - reads and stores the information from .csv files, performs error handling and input validation.
+### Comparator.js - reads information stored in InputReader and performs necessary comparisons.
 
-##Runtime Environment
+## Runtime Environment
 This program was developed using NodeJS as a runtime environment. Therefore, NodeJS must be installed on the locdal machine for the program to run successfully. Download link for NodeJS can be found [here](https://nodejs.org/en/download/). Additionally, 'fast-csv' must be installed on the runtime environment in order for the program to run successfully. 'fast-cv' was selected because it claims to be a scalable solution for reading .csv files using TypeScript. Documentation for 'fast-csv' can be found [here](https://c2fo.github.io/fast-csv/).
 
 Install dependencies and run the program as follows:
 >>npm install fast-csv'
 >>node Main.js
 
-##Example Input-Output
+## Example Input-Output
 Inside the 'testFiles' directory, you will find 'Input1.csv' and 'Input2.csv'. These files were given as an input example, and they differ in the following ways:
 
 test1@gmail.com differs in subscriber count

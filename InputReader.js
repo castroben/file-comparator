@@ -3,11 +3,12 @@ const csv = require('fast-csv');
 const Account = require('./Account');
 class InputReader {
     constructor() {
-        this._fileSet = []; //unique filepaths
-        this._concern = 'all'; //search specification
+        this._fileSet = []; //unique file paths - file paths represented as list for ease of iteration
+        this._concern = 'all'; //search concern
         this._matrix = []; //matrix containing all entries of all files - one row per file
     }
 
+    //Function used to populate 'fileSet' and 'concern' fields, and check validity of input
     validate(filePaths, concern = 'all'){
         for(let i = 0; i < filePaths.length; i++){
             if(!this._fileSet.includes(filePaths[i])){ //does not check for valid path - only uniqueness
@@ -33,12 +34,13 @@ class InputReader {
         let accounts = []; //array of Account object representing all entries of a single valid file
 
         return new Promise(((resolve) => { //return result of reading CSV file
-            let readStream = fs.createReadStream(filePath)
+
+            let readStream = fs.createReadStream(filePath) //reading file path and checking its validity
                 .on('error', err => {
                     console.log('ERROR:', err.message);
                 });
 
-            readStream
+            readStream //parsing .csv file
                 .pipe(csv.parse({ headers: false }))
                 .on('error', err => {
                     console.log(err);

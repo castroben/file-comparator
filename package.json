@@ -6,10 +6,7 @@
     "npm": "^8.1.1"
   },
   "description": "",
-  "main": "InputReader.js",
-  "devDependencies": {
-    "csv-parser": "^3.0.0"
-  },
+  "main": "Main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

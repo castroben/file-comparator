@@ -1,0 +1,26 @@
+{
+  "name": "file-comparator",
+  "version": "1.0.0",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "npm": "^8.1.1"
+  },
+  "description": "",
+  "main": "InputReader.js",
+  "devDependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castroben/file-comparator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castroben/file-comparator/issues"
+  },
+  "homepage": "https://github.com/castroben/file-comparator#readme"
+}

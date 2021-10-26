@@ -19,19 +19,19 @@ $ node Main.js
 ## Example Input-Output
 Inside the 'testFiles' directory, you will find 'Input1.csv' and 'Input2.csv'. These files were given as an input example, and they differ in the following ways:
 
-test1@gmail.com differs in subscriber count
-test4@gmail.com differs in channel_onwership
-test14@gmail.com differs in subscriber count
-test15@gmail.com differs in subscriber count
-test17@gmai.com differs in channel_ownership
-test26@gmail.com differs in subscriber count and channel ownnership
-test30@gmail.com differs in channel_ownership
-test31@gmail.com differs in channel_ownership
-test34@gmail.com differs in subscriber count
-test35@gmail.com differs in subscriber count
-test45@gmail.com differs in subscriber count
-test46@gmail.com differs in subscriber count
-test59@gmai.com differs in channel_ownership
+test1@gmail.com differs in subscriber count__
+test4@gmail.com differs in channel_onwership__
+test14@gmail.com differs in subscriber count__
+test15@gmail.com differs in subscriber count__
+test17@gmai.com differs in channel_ownership__
+test26@gmail.com differs in subscriber count and channel ownnership__
+test30@gmail.com differs in channel_ownership__
+test31@gmail.com differs in channel_ownership__
+test34@gmail.com differs in subscriber count__
+test35@gmail.com differs in subscriber count__
+test45@gmail.com differs in subscriber count__
+test46@gmail.com differs in subscriber count__
+test59@gmai.com differs in channel_ownership__
 
 Based on these discrepancies, running the program with the concern 'subscriber_count' should output:
 [

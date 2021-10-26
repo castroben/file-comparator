@@ -1,5 +1,5 @@
 # FILE COMPARATOR
-The objective of this program is to identify and prints differences between two or more .csv files containing the email, YouTube channel and subscriber count of several subjects.
+The objective of this program is to identify and print differences between two or more .csv files containing the email, YouTube channel and subscriber count of several subjects.
 
 ## Project Structure
 This project is composed of 3 functional classes plus on main class to run the entire code base. The three classes that do all the 'heavy-lifting' are Account.js, Comparator.js and InputReader.js. The code in each of these files is documented, however, here is a brief description of each class:

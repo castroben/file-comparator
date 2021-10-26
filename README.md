@@ -11,6 +11,7 @@ This project is composed of 3 functional classes plus on main class to run the e
 This program was developed using NodeJS as a runtime environment. Therefore, NodeJS must be installed on the locdal machine for the program to run successfully. Download link for NodeJS can be found [here](https://nodejs.org/en/download/). Additionally, 'fast-csv' must be installed on the runtime environment in order for the program to run successfully. 'fast-cv' was selected because it claims to be a scalable solution for reading .csv files using TypeScript. Documentation for 'fast-csv' can be found [here](https://c2fo.github.io/fast-csv/).
 
 Install dependencies and run the program as follows:
+
 $ npm install fast-csv'
 $ node Main.js
 

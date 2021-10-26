@@ -13,6 +13,7 @@ This program was developed using NodeJS as a runtime environment. Therefore, Nod
 Install dependencies and run the program as follows:
 
 $ npm install fast-csv'
+
 $ node Main.js
 
 ## Example Input-Output

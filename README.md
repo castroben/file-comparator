@@ -8,7 +8,7 @@ This project is composed of 3 functional classes plus on main class to run the e
 ### Comparator.js - reads information stored in InputReader and performs necessary comparisons.
 
 ## Runtime Environment
-This program was developed using NodeJS as a runtime environment. Therefore, NodeJS must be installed on the locdal machine for the program to run successfully. Download link for NodeJS can be found [here](https://nodejs.org/en/download/). Additionally, 'fast-csv' must be installed on the runtime environment in order for the program to run successfully. 'fast-cv' was selected because it claims to be a scalable solution for reading .csv files using TypeScript. Documentation for 'fast-csv' can be found [here](https://c2fo.github.io/fast-csv/).
+This program was developed using NodeJS as a runtime environment. Therefore, NodeJS must be installed on the local machine for the program to run successfully. Download link for NodeJS can be found [here](https://nodejs.org/en/download/). Additionally, 'fast-csv' must be installed on the runtime environment in order for the program to run successfully. 'fast-cv' was selected because it claims to be a scalable solution for reading .csv files using TypeScript. Documentation for 'fast-csv' can be found [here](https://c2fo.github.io/fast-csv/).
 
 Inside the root folder, run the following commands to install all dependencies and run the program as follows:
 
